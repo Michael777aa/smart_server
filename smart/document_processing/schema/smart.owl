@@ -3519,7 +3519,9 @@ A single fulfillment event (that is, the medication was dispensed to the patient
 
     <!-- http://smartplatforms.org/terms#Panel -->
 
-    <owl:Class rdf:about="http://smartplatforms.org/terms#Panel"/>
+    <owl:Class rdf:about="http://smartplatforms.org/terms#Panel">
+	    <rdfs:subClassOf rdf:resource="http://smartplatforms.org/terms#Statement"/>
+    </owl:Class>
     
 
 
